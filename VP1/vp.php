@@ -15,7 +15,7 @@ $appt = $_POST['appt'];
 $floor = $_POST['floor'];
 $comment = $_POST['comment'];
 
-echo $_POST['name'] . " ". $_POST['phone']. " ". $_POST['email']. " ". $_POST['street']. " ". $_POST['home']. " ". $_POST['part']. " ". $_POST['appt']. " ". $_POST['floor']. " ". $_POST['comment'];
+//echo $name . " ". $phone. " ".$email. " ". $street. " ". $home. " ". $part. " ". $appt. " ". $floor. " ". $comment;
 
 $quer = "INSERT INTO user (Name, email, tel, street, home, part, appt, floor, comment) VALUES ($name, $phone, $email, $street, $home, $part, $appt, $floor, $comment)";
 
