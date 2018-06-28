@@ -250,9 +250,6 @@ trait gps_dop_usl {
                 echo $mess . " доп услуга gps в салон, " . $mess2 . $mess3 . $mess4;
             }
         }
-
-
-
     }
 }
 
