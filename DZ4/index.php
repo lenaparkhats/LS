@@ -127,8 +127,8 @@ trait vodit_dop_usl
 {
     public function vodit()
     {
-       $this->mess4 = $this->cena + 1000;
-       echo "Доп услуга водитель. Стоимость 1000 руб. Итого " . $this->cena . " + 1000 = " . $this->mess4;
+        $this->mess4 = $this->cena + 1000;
+        echo "Доп услуга водитель. Стоимость 1000 руб. Итого " . $this->cena . " + 1000 = " . $this->mess4;
     }
 }
 
@@ -137,7 +137,7 @@ trait gps_dop_usl {
         $min_h = $min / 60;
         $hourly = ceil($min_h);
         if ($hour !=0){
-           $hourly += $hour;
+            $hourly += $hour;
         }
         $hor = $hourly;
         $hourly *= 15;
